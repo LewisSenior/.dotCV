@@ -1,0 +1,5 @@
+jobs:
+  initialise:
+    steps:
+      - name: Run start.sh script
+        run: sh start.sh
