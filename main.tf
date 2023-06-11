@@ -37,7 +37,8 @@ resource "azurerm_linux_web_app" "dotcv-as" {
 	site_config {
 		always_on = "false"
 		application_stack {
-			dotnet_version = "6.0"
+			docker_image = "lewissenior/dotcv"
+			docker_image_tag = "latest"
 		}
 	}
 }
