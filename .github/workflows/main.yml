@@ -7,6 +7,7 @@ on:
 
 jobs:
   initialise:
+    runs-on: ubuntu-linux
     steps:
       - name: Run start.sh script
         run: sh start.sh
